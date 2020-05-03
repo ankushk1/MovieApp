@@ -53,6 +53,7 @@ class App extends React.Component {
                 key={`movies-${index}`}
                 dispatch={this.props.store.dispatch}
                 isFavourite={this.isMovieFavourite(movie)}
+                
               />
             ))}
           </div>
